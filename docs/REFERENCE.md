@@ -54,12 +54,12 @@ The method setAppUI will change the UI of the parent prosperworks web page.
 ###### Parameter
 | Name | Type   | Required | Description                                                                                                                                                 |
 | ---- | ------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| data | object | yes      | data use json format. Currently three key in the json is supported:<br> "counter", "height", "width", "disableAddButton", "showActionBar", "isActionBarActive". |
+| data | object | yes      | data use json format. Currently three key in the json is supported:<br> "count", "height", "width", "disableAddButton", "showActionBar", "isActionBarActive". |
 
 ###### Example
 ```javascript
 sdk.setAppUI({
-  counter: 5,   //change the counter in parent frame above the iframe
+  count: 5,   //change the counter in parent frame above the iframe
   width: 500,  //change the iframe width (currently only app in action bar allow this)
   height: 500,  //change the iframe height
   disableAddButton: true,  //disable the add button in parent frame above the iframe
