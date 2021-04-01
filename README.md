@@ -1,3 +1,5 @@
+# It was deprecated on March 31 2021, replaced by copper-sdk
+
 ProsperWorks App SDK
 ====================
 
